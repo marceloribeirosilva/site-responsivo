@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conceitos de Responsividade</title>
+    <meta name="viewport" content="width=device, initial-scale=1">
+    <style>    
+      /*
+        Tamanho relativo para as fontes, imagens, etc
+        em - relativo ao pai
+        rem - relativo ao root. Por padrão o elemento pai tem 16px.
+      */
+      html {
+        font-size: 62.5%; /* Essa medida faz com que o 1rem seja igual a 10px */
+      }
+
+      @media (max-width: 600px) {
+        html {
+          font-size: 50%;
+        }
+      }
+
+      div {
+        font-size: 5rem;
+        padding: 5rem;
+      }
+    </style>    
+  </head>
+  <body>
+    <div>      
+      <p>Bootcamp <span>Rocketseat</span></p>
+    </div>
+  </body>
+</html>
