@@ -10,4 +10,4 @@ Layout Fixo
 Layout Fluido
 `%` - Porcentagem
 
-https://youtu.be/H91DhKPjhPk?t=1278
+https://youtu.be/H91DhKPjhPk?t=2863
